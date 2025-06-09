@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_faisalganja_harness_gitops_workshop_1749484947783-push-trigger-input-set
+  identifier: Build_faisalganja_harness_gitops_workshop_1749484947783pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_faisalganja_harness_gitops_workshop_1749484947783
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
