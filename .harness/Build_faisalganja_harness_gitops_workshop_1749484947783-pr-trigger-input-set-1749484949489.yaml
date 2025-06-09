@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_faisalganja_harness_gitops_workshop_1749484947783-pr-trigger-input-set
+  identifier: Build_faisalganja_harness_gitops_workshop_1749484947783prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_faisalganja_harness_gitops_workshop_1749484947783
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
